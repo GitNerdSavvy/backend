@@ -1,0 +1,34 @@
+GET http://localhost:3000/user
+
+
+
+###
+POST http://localhost:3000/user/add
+Content-Type: application/json
+
+{
+    "username": "Done"
+   
+}
+
+
+
+###
+
+GET http://localhost:3000/exercise
+
+###
+POST http://localhost:3000/exercise/add
+Content-Type: application/json
+
+{
+    "username": "Done",
+    "description":"Hello okay",
+    "duration":"5",
+    "date":"12-5-2023"
+}
+
+###
+DELETE http://localhost:3000/exercise/
+
+
